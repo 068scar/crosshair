@@ -1,9 +1,9 @@
 # Surviv.io Mod
 ### The new features are:
-- added nice Crossair
+- added nice cross hairs
 
 ### Changelogs:
-- Use the crossair to play like a boss
+- Use the cross hairs to play like a boss
 
 ### Planned features are:
 - No features are planed!
