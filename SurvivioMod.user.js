@@ -62,7 +62,13 @@
                                 else
                                     console.log("failed wall hack");
                                 thatpage = thatpageNew
-                              
+                               
+                                thatpageNew = thatpage.replace(/alpha:.97,/g, 'alpha:.4,')
+                                if (thatpageNew != thatpage)
+                                    console.log("success wall2 hack");
+                                else
+                                    console.log("failed wall2 hack");
+                                thatpage = thatpageNew
                               //eval(thatpage);
                                 var d = document;
                                 var scriptNode = d.createElement('script');
