@@ -2,10 +2,12 @@
 ### The new features are:
 - added nice cross hairs
 - added zoom out hack
+- added wall hack
 
 ### Changelogs:
 - Use the cross hairs to play like a boss
 - zoom out is so bad ass .... just shame on you for using it!
+- this mod is shit ... no more updates are comming!
 
 ### Planned features are:
 - No features are planed!
