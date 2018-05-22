@@ -1,9 +1,11 @@
 # Surviv.io Mod
 ### The new features are:
 - added nice cross hairs
+- added zoom out hack
 
 ### Changelogs:
 - Use the cross hairs to play like a boss
+- zoom out is so bad ass .... just shame on you for using it!
 
 ### Planned features are:
 - No features are planed!
