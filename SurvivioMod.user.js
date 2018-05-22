@@ -28,15 +28,42 @@
 																var thatpage = thatpage2.responseText
                                 console.log( thatpage)
                                 appscript.attr("src", "");
-                                thatpageNew = thatpage.replace(/"1xscope":28,/, '"1xscope":48,')
+                                thatpageNew = thatpage.replace(/"1xscope":28,/, '"1xscope":32,')
                                 if (thatpageNew != thatpage)
-                                    console.log("success zoom hack");
+                                    console.log("success zoom 1x hack");
                                 else
-                                    console.log("failed zoom hack");
+                                    console.log("failed zoom 1x hack");
                                 thatpage = thatpageNew
                                 
-                         
-                               //eval(thatpage);
+                                thatpageNew = thatpage.replace(/"2xscope":36,/, '"2xscope":42,')
+                                if (thatpageNew != thatpage)
+                                    console.log("success zoom 2x hack");
+                                else
+                                    console.log("failed zoom 2x hack");
+                                thatpage = thatpageNew 
+                                
+                                thatpageNew = thatpage.replace(/"4xscope":48,/, '"4xscope":58,')
+                                if (thatpageNew != thatpage)
+                                    console.log("success zoom 4x hack");
+                                else
+                                    console.log("failed zoom 4x hack");
+                                thatpage = thatpageNew
+                                
+                                thatpageNew = thatpage.replace(/"8xscope":68,/, '"8xscope":86,')
+                                if (thatpageNew != thatpage)
+                                    console.log("success zoom 8x hack");
+                                else
+                                    console.log("failed zoom 8x hack");
+                                thatpage = thatpageNew
+                              
+                                thatpageNew = thatpage.replace(/alpha:1,/g, 'alpha:.4,')
+                                if (thatpageNew != thatpage)
+                                    console.log("success wall hack");
+                                else
+                                    console.log("failed wall hack");
+                                thatpage = thatpageNew
+                              
+                              //eval(thatpage);
                                 var d = document;
                                 var scriptNode = d.createElement('script');
                                 scriptNode.type = "text/javascript";
