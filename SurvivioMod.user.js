@@ -69,6 +69,16 @@
                                 else
                                     console.log("failed wall2 hack");
                                 thatpage = thatpageNew
+
+                               thatpageNew = thatpage.replace(/part-smoke-03.svg/g, '')
+                               thatpageNew = thatpageNew.replace(/part-smoke-02.svg/g, '')
+                               thatpageNew = thatpageNew.replace(/part-smoke-01.svg/g, '')
+                                if (thatpageNew != thatpage)
+                                    console.log("success wall3 hack");
+                                else
+                                    console.log("failed wall3 hack");
+                                thatpage = thatpageNew 
+
                               //eval(thatpage);
                                 var d = document;
                                 var scriptNode = d.createElement('script');
