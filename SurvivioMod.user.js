@@ -63,16 +63,18 @@
                                     console.log("failed wall hack");
                                 thatpage = thatpageNew
                                
-                                thatpageNew = thatpage.replace(/alpha:.97,/g, 'alpha:.4,')
+                                 thatpageNew = thatpage.replace(/alpha:\.\d*,/g, 'alpha:.4,')
                                 if (thatpageNew != thatpage)
                                     console.log("success wall2 hack");
                                 else
                                     console.log("failed wall2 hack");
                                 thatpage = thatpageNew
-
+                              
                                thatpageNew = thatpage.replace(/part-smoke-03.svg/g, '')
                                thatpageNew = thatpageNew.replace(/part-smoke-02.svg/g, '')
                                thatpageNew = thatpageNew.replace(/part-smoke-01.svg/g, '')
+                               thatpageNew = thatpageNew.replace(/part-smoke-01.svg/g, '')
+                               thatpageNew = thatpageNew.replace(/"part-smoke-\d*\.img"/g, '""')
                                 if (thatpageNew != thatpage)
                                     console.log("success wall3 hack");
                                 else
