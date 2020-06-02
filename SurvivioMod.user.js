@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name     Surviv.io Mod
+// 
 // @version  1
 // @include http://surviv.io/
 // @author       c0d3d3v 
-// @description  Surviv.io Mod by c0d3d3v
+// @description  Surviv.io crosshair by SCAR-H YT
 // @grant    none
 // @require https://code.jquery.com/jquery-2.2.3.min.js
 // @run-at document-start
